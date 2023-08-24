@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Akichi139\Bladeboostrap\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BladeboostrapCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'bladeboostrap';
 
     public $description = 'My command';
 
