@@ -23,27 +23,7 @@ You can install the package via composer:
 composer require akichi139/bladeboostrap
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="bladeboostrap-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="bladeboostrap-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
+You can publish and run the view with:
 
 ```bash
 php artisan vendor:publish --tag="bladeboostrap-views"
@@ -52,8 +32,9 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 ## Usage
 
 ```php
-$bladeboostrap = new Akichi139\Bladeboostrap();
-echo $bladeboostrap->echoPhrase('Hello, Akichi139!');
+<x-bladeboostrap::{{blade component name}}>
+    yout html code
+</x-bladeboostrap::{{blade component name}}>
 ```
 
 ## Testing
