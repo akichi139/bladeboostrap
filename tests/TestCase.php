@@ -2,9 +2,9 @@
 
 namespace Akichi139\Bladeboostrap\Tests;
 
+use Akichi139\Bladeboostrap\BladeboostrapServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Akichi139\Bladeboostrap\BladeboostrapServiceProvider;
 
 class TestCase extends Orchestra
 {

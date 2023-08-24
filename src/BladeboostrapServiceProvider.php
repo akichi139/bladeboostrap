@@ -2,9 +2,9 @@
 
 namespace Akichi139\Bladeboostrap;
 
+use Akichi139\Bladeboostrap\Commands\BladeboostrapCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Akichi139\Bladeboostrap\Commands\BladeboostrapCommand;
 
 class BladeboostrapServiceProvider extends PackageServiceProvider
 {
