@@ -59,7 +59,7 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 //normal input
 <x-bladeboostrap::input placeholder="string you want to show" required="true"/>
 //password input
-<x-input type="password" placeholder="password"/>
+<x-bladeboostrap::input type="password" placeholder="password"/>
 ```
 
 ## Testing
