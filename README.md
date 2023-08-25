@@ -33,7 +33,7 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 
 #table
 
-```php
+```
 <x-bladeboostrap::table>
     <x-slot name="header">
         <th>Name</th>
@@ -55,7 +55,7 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 
 #input
 
-```php
+```
 //normal input
 <x-bladeboostrap::input placeholder="string you want to show" required="true"/>
 //password input
