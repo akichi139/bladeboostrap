@@ -31,10 +31,35 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 
 ## Usage
 
+#table
+
 ```php
-<x-bladeboostrap::{{blade component name}}>
-    yout html code
-</x-bladeboostrap::{{blade component name}}>
+<x-bladeboostrap::table>
+    <x-slot name="header">
+        <th>Name</th>
+        <th>Department</th>
+        <th>Email</th>
+    </x-slot>
+    <tr>
+        <td>Alfred Rowe</td>
+        <td>Outsourcing</td>
+        <td>alfred@therowe.com</td>
+    </tr>
+    <tr>
+        <td>Michael K. Ocansey</td>
+        <td>Tech</td>
+        <td>kabutey@gmail.com</td>
+    </tr>
+</x-bladeboostrap::table>
+```
+
+#input
+
+```php
+//normal input
+<x-bladeboostrap::input placeholder="string you want to show" required="true"/>
+//password input
+<x-input type="password" placeholder="password"/>
 ```
 
 ## Testing
