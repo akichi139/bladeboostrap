@@ -62,6 +62,8 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 <x-bladeboostrap::input type="password" placeholder="password"/>
 //color input
 <x-bladeboostrap::input type="color"/>
+//datetime input
+<x-bladeboostrap::input type="datetime-local"/>
 ```
 
 #calendar
