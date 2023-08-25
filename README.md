@@ -64,6 +64,17 @@ php artisan vendor:publish --tag="bladeboostrap-views"
 <x-bladeboostrap::input type="color"/>
 ```
 
+#calendar
+
+```
+@php
+$eventsData = [['title' => 'testevent', 'start' => '2023-08-25 08:00:00', 'end' => '2023-08-25 11:00:00', 'color' => '#09FF9B'],
+                ['title' => 'testevent', 'start' => '2023-08-26 08:00:00', 'end' => '2023-08-26 11:00:00', 'color' => '#F00000']];
+@endphp
+
+<x-bladeboostrap::calendar :events="$eventsData" />
+```
+
 ## Testing
 
 ```bash
